@@ -1,1 +1,21 @@
-<p>live-market works!</p>
+<div class="t-chartBox">
+  <div>
+    <apx-chart
+      [series]="chartCandleOptions.series"
+      [chart]="chartCandleOptions.chart"
+      [xaxis]="chartCandleOptions.xaxis"
+      [plotOptions]="chartCandleOptions.plotOptions"
+    ></apx-chart>
+  </div>
+  <div>
+    <apx-chart
+      [series]="chartBarOptions.series"
+      [chart]="chartBarOptions.chart"
+      [xaxis]="chartBarOptions.xaxis"
+      [yaxis]="chartBarOptions.yaxis"
+      [dataLabels]="chartBarOptions.dataLabels"
+      [stroke]="chartBarOptions.stroke"
+      [plotOptions]="chartBarOptions.plotOptions"
+    ></apx-chart>
+  </div>
+</div>

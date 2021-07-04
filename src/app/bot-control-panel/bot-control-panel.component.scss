@@ -2,11 +2,9 @@
 @import '_colors';
 
 :host {
-  margin: 0 1 * $space-unit  1 * $space-unit 0 ;
+  height: 100%;
+  margin: 1 * $space-unit  1 * $space-unit 0 0;
   background-color: $night-blue-6;
   box-shadow: 0 0 4px 1px $black-50;
-}
-
-.t-chartBox {
-  margin: 3 * $space-unit;
+  padding: 3 * $space-unit;
 }

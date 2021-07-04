@@ -1,0 +1,8 @@
+<div class="t-inputContainer">
+  <label>{{label}}</label>
+  <div class="t-inputWithUnit">
+    <input type="text" [ngModel]="value" (ngModelChange)="valueChanged.emit($event)">
+    <span>{{ unit }}</span>
+  </div>
+
+</div>

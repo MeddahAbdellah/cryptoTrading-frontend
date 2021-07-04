@@ -1,7 +1,24 @@
 @import 'variables';
+@import '_colors';
 
 :host {
   height: 100%;
   width: 100%;
-  padding: 2 * $space-unit;
+  display: flex;
+  flex-flow: row;
+  background-color: $night-blue-3;
+
 }
+
+.t-marketAndControls {
+  width: 70%;
+  display: flex;
+  flex-flow: column;
+}
+
+.t-eaList {
+  display: flex;
+  flex-flow: column;
+  width: 30%;
+}
+
